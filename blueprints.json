@@ -1,0 +1,16 @@
+[
+  {
+    "id": "blueprint-1",
+    "name": "Social Media Profile",
+    "type": "person", 
+    "emoji": "👤",
+    "data": "{ \"name\": \"{{name}}\", \"platform\": \"{{platform}}\", \"followers\": {{followers}} }"
+  },
+  {
+    "id": "blueprint-2",
+    "name": "Product Listing",
+    "type": "product",
+    "emoji": "🛍️",
+    "data": "{ \"name\": \"{{productName}}\", \"description\": \"{{description}}\", \"price\": {{price}} }"
+  }
+]
